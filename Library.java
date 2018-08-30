@@ -7,14 +7,6 @@ import java.util.List;
  * Each borrower borrows one book at a time, reads it
  * until the loan period ends, and then returns the book
  * to the library. 
- * 
- * The problem is to implement the Borrower.borrowBook() 
- * and Borrower.returnBook() methods that are called from 
- * Borrower.run(). Complete descriptions of the algorithms 
- * and messages produced by the methods are in the method 
- * comment blocks. 
- * file has sample output. Actual output may vary due to
- * differences in thread scheduling.
  */
 public class Library {
 	/** library instance */
@@ -103,8 +95,7 @@ public class Library {
 	 * the simulation. The loop terminates when the current time
 	 * is after the library closing time. The borrower reports how 
 	 * many books were borrowed as "finished <borrowedCount> books".
-	 * 
-	 * NOTE: Access to the library circulation functions should be 
+	 * Access to the library circulation functions should be 
 	 * locked by the library.circulation object.
 	 */
 	static class Borrower implements Runnable {
