@@ -12,7 +12,7 @@ import java.util.List;
  * and Borrower.returnBook() methods that are called from 
  * Borrower.run(). Complete descriptions of the algorithms 
  * and messages produced by the methods are in the method 
- * comment blocks. The accompanying "problem4_out.txt" 
+ * comment blocks. 
  * file has sample output. Actual output may vary due to
  * differences in thread scheduling.
  */
